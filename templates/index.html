@@ -1,0 +1,367 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty Ecommerce</title>
+    <!-- customer css link -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <!-- swiper css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- boxicon cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!--------------------------------------- Header section ---------------------------------------->
+    <div class="header">
+      <a href="#">
+        <img
+          class="toggle-icon"
+          src="{% static 'images/toggle-icon.png' %}"
+          alt=""
+        />
+      </a>
+
+      <div class="logo">
+        <a href="">
+          <img src="{% static 'images/logo.png' %}" alt="" />
+        </a>
+      </div>
+      <div class="user">
+        <a href="">
+          <img src="{% static 'images/user-icon.png' %}" alt="" />
+          <img src="{% static 'images/bag-icon.png' %}" alt="" />
+          <img src="{% static 'images/search-icon.png' %}" alt="" />
+        </a>
+      </div>
+    </div>
+
+    <!--------------------------------------- Header hero section ---------------------------------------->
+
+    <div class="hero">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <h1>Beauty <br />Kit</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus quia non accusamus quod officia quasi, provident
+                voluptates mollitia, molestias numquam necessitatibus sequi. Rem
+                reiciendis doloremque omnis repudiandae mollitia! Sint, aperiam
+                odit?
+              </p>
+              <a href="#">Buy Now</a>
+            </div>
+            <img src="{% static 'images/banner-img.png' %}" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <h1>Beauty <br />Kit</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus quia non accusamus quod officia quasi, provident
+                voluptates mollitia, molestias numquam necessitatibus sequi. Rem
+                reiciendis doloremque omnis repudiandae mollitia! Sint, aperiam
+                odit?
+              </p>
+              <a href="#">Buy Now</a>
+            </div>
+            <img src="{% static 'images/banner-img.png' %}" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navigation menu -->
+    <div class="navLinks">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Client</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <i class="bx bx-x" id="closeBtn"></i>
+    </div>
+
+    <!-----------------------------product menu section start------------------------------->
+
+    <section class="products">
+      <h1>Our products</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et at dolorem,
+        ipsam expedita ad ratione quibusdam quos laboriosam, veniam labore enim!
+      </p>
+      <div class="product-card">
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-1.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-2.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-3.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-4.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-5.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-6.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-7.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-8.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-9.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-10.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-11.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-row">
+          <div class="product-col">
+            <h4>Beauty Brush</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="{% static 'images/img-12.png' %}" alt="" />
+
+            <div class="bottom">
+              <a href="#" class="buy">Buy Now</a>
+              <span>Price $30</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button>See More</button>
+    </section>
+
+    <section class="about">
+      <div class="about-row">
+        <div class="about-col-one">
+          <h1>About Our Beauty Store</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+            delectus tempora dolores eveniet tenetur officiis, perferendis sed
+            porro corrupti nulla quo dolorem placeat, illo odit impedit, unde
+            eius minus minima! Ratione asperiores nemo itaque?
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="about-col-two">
+          <img src="{% static 'images/about-img.png' %}" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="customer">
+      <div class="swiper myCustomer">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="{% static 'images/client-img.png' %}" alt="" />
+            <div class="details">
+              <h3>jonro</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+                id architecto optio facere et similique aperiam temporibus, odit
+                nihil vero! Qui, in nostrum!
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="{% static 'images/client-img.png' %}" alt="" />
+            <div class="details">
+              <h3>jonro</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+                id architecto optio facere et similique aperiam temporibus, odit
+                nihil vero! Qui, in nostrum!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-btn"></div>
+        <div class="swiper-button-prev swiper-btn"></div>
+      </div>
+    </section>
+    <section class="get">
+      <div class="intro">
+        <h1>Get in touch</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
+          non voluptatem distinctio, fuga quia vel adipisci sunt perferendis
+          quis maiores ab ullam sed? Quisquam, quae.
+        </p>
+      </div>
+      <div class="buttons">
+        <a href="#" class="contact">Contact Us</a>
+        <a href="#" class="new">NewsLetter</a>
+      </div>
+    </section>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28565.132948676266!2d80.2291712!3d26.499481600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1719765284035!5m2!1sen!2sin"
+      width="100%"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <div class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <p><i class="bx bxs-location-plus"></i> Address: India</p>
+          <p><i class="bx bxs-phone"></i> Phone: +91 1234567890</p>
+          <p><i class="bx bxs-envelope"></i> Email: bueaty@gmail.com</p>
+        </div>
+
+        <div class="footer-col">
+          <img src="{% static 'images/footer-logo.png' %}" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            blanditiis ducimus harum quos nemo! Inventore facere dolorum
+            voluptatum atque nam. Praesentium, quam laborum?
+          </p>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <div class="footer-col">
+          <h4>best products</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            assumenda illo eaque! Aperiam, sed numquam? Eum animi blanditiis
+            molestias, architecto reiciendis nam odit!
+          </p>
+        </div>
+      </div>
+      <div class="line">
+        <div class="footer-bottom">
+          <span>2024 All Rights Reserved, Design by Me</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- customer js link -->
+    <script src="{% static 'js/script.js' %}"></script>
+  </body>
+</html>
